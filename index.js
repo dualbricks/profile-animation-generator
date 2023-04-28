@@ -8,14 +8,18 @@ const app = new express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.json());
+app.get("", (req,res) => {
+  res.send("welcome")
+})
 
-app.get("", (req, res) => {
+app.get("/svg", (req, res) => {
   let options = {
-    width: "600px",
-    height: "600px",
+    width: "1000px",
+    height: "400px",
     text: "hello world",
     color: "#2596be",
     speed: "6.8s",
+    size: 26
   };
   Object.keys(req.query).map((q) => {
     options[q] = req.query[q];
