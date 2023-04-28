@@ -13,7 +13,7 @@ Usage: ``` curl https://time-five-reading.glitch.me/svg?text=Hello+World ```
 </picture>
 
 Currently supported querys:
-- Text ``` ?text=${text} ```
+- text ``` ?text=${text} ```
 - width ``` ?width=${width} ```
 - height ``` ?height=${height} ```
 - color ``` ?color=${hex}```
