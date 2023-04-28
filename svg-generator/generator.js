@@ -17,6 +17,7 @@ const svgGenerator = (text, otherStuff) => {
       xmlns:xlink="http://www.w3.org/1999/xlink"
       version="1.1"
     >
+    ${default_style}
     <path id="path">
         <animate
           attributeName="d"
