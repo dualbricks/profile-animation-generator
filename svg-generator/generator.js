@@ -1,10 +1,10 @@
 import { SVG } from "@svgdotjs/svg.js";
-import { VT323 } from "./fonts";
+import { VT323 } from "./fonts.js";
 
 const svgGenerator = (text, otherStuff) => {
   const { width, height, color, speed, size, fontStyle } = otherStuff;
   let default_style = "<style></style>";
-  let font = fontStyle ? fontStyle : default_font;
+
   if (font == "VT323") {
     default_style = VT323;
   }
