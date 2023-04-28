@@ -19,3 +19,4 @@ Currently supported querys:
 - color ``` ?color=${hex}```
 - speed ``` ?speed=${time_in_seconds} ```
 - size ``` ?size=${font_size} ```
+- fontStyle ```?fontStyle=${fontStyle} ```
