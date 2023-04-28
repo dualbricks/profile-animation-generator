@@ -12,7 +12,7 @@ Usage: ``` curl https://time-five-reading.glitch.me/svg?text=Hello+World&fontSty
   <img alt="title" src="https://time-five-reading.glitch.me/svg?text=Hello+World" />
 </picture>
 
-Currently supported querys:
+Currently supported queries:
 - text ``` ?text=${text} ```
 - width ``` ?width=${width} ```
 - height ``` ?height=${height} ```
