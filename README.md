@@ -4,11 +4,11 @@
   <img alt="title" src="https://time-five-reading.glitch.me/svg?text=Profile+Text+Animation+Generator" />
 </picture>
 
-Usage: ``` curl https://time-five-reading.glitch.me/svg?text=Hello+World ``` 
+Usage: ``` curl https://time-five-reading.glitch.me/svg?text=Hello+World&fontStyle=VT323 ``` 
 
 <picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://time-five-reading.glitch.me/svg?text=Hello+World&color=%23eeeee3&size=20" />
-  <source media="(prefers-color-scheme: light)" srcset="https://time-five-reading.glitch.me/svg?text=Hello+World&color=%2321130dsize=20" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://time-five-reading.glitch.me/svg?text=Hello+World&color=%23eeeee3&size=30&fontStyle=VT323 " />
+  <source media="(prefers-color-scheme: light)" srcset="https://time-five-reading.glitch.me/svg?text=Hello+World&color=%2321130dsize=30&fontStyle=VT323 " />
   <img alt="title" src="https://time-five-reading.glitch.me/svg?text=Hello+World" />
 </picture>
 
