@@ -18,9 +18,10 @@ app.get("/svg", (req, res) => {
     height: "400px",
     text: "hello world",
     color: "#2596be",
-    speed: "6.8s",
-    size: 26,
+    speed: "9000ms",
+    size: 20,
     fontStyle: "Montserrat",
+    length: 0,
   };
   Object.keys(req.query).map((q) => {
     options[q] = req.query[q];
