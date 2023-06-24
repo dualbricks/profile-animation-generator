@@ -17,6 +17,8 @@ const template = (id, text, otherStuff) => {
     font-size="${size}"
     font-family="${fontStyle}"
     fill="${color}"
+    text-anchor="middle"
+    
   >
     <textPath xlink:href="#p${id}">${text}</textPath>
   </text>`;
